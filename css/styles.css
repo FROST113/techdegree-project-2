@@ -48,7 +48,13 @@ h1 {
 
  /* Layout Containers */
 
+    body {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
  .container {
+     max-width: 320px;
      width: 90%;
      margin: 10px auto;
      text-align: center;
@@ -114,7 +120,12 @@ img {
  ========================================== */
 
  @media (min-width: 768px) {
-     .container {
+    body {
+        max-width: 768px;
+        margin: 0 auto;
+    } 
+    
+    .container {
          max-width: 90%;
          margin: 0 auto;
         }
@@ -216,6 +227,11 @@ img {
  ========================================== */
 
  @media (min-width: 1024px) {
+    body {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
     .name {
         float: left;
     }
